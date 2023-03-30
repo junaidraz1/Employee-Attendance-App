@@ -1,0 +1,30 @@
+<resources>
+
+    <string name="app_name">Attendance App</string>
+    <string name="settings_txt">Settings</string>
+    <string name="logout_txt">Logout</string>
+    <string name="version_txt">Version</string>
+    <string name="apply_leave">Apply Leave</string>
+    <string name="leave_status">Leave Status</string>
+    <string name="leave_balance">Leave Balance</string>
+    <string name="personal_header">Personal</string>
+    <string name="contact_header">Contact</string>
+    <string name="education_header">Education</string>
+    <string name="experience_header">Experience</string>
+    <string name="nok_header">Next Of Kin</string>
+    <string name="alertMessage">Your location services appear to be disabled - would you like to enable them?</string>
+    <string name="enableLocationService">Enable location service</string>
+    <string name="cancelAlert">Cancel</string>
+    <string name="presentHistory">Present History</string>
+    <string name="absentHistory">Absent History</string>
+    <string name="lateHistory">Late History</string>
+    <string name="leaveHistory">Leave History</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="googlePlacesAPIKey">AIzaSyB07oKE_GD9xHgPEHrielmn1__vD3OsaYs</string>
+
+
+</resources>

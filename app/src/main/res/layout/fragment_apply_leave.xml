@@ -1,0 +1,674 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:id="@+id/rl_applyLeave"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginEnd="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_20sdp">
+
+            <CheckBox
+                android:id="@+id/cb_shortLeave"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/_25sdp"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="@dimen/_2sdp"
+                android:fontFamily="@font/poppins_semi_bold"
+                android:text="Short Leave"
+                android:textColor="@color/dusk"
+                android:textSize="@dimen/_10ssp" />
+
+            <!--                <RelativeLayout-->
+            <!--                    android:id="@+id/rl_department"-->
+            <!--                    android:layout_width="wrap_content"-->
+            <!--                    android:layout_height="wrap_content"-->
+            <!--                    android:layout_below="@id/cb_shortLeave"-->
+            <!--                    android:layout_marginTop="@dimen/_10sdp">-->
+
+            <!--                    <TextView-->
+            <!--                        android:id="@+id/tv_department"-->
+            <!--                        android:layout_width="wrap_content"-->
+            <!--                        android:layout_height="wrap_content"-->
+            <!--                        android:layout_marginStart="@dimen/_5sdp"-->
+            <!--                        android:layout_marginTop="@dimen/_2sdp"-->
+            <!--                        android:fontFamily="@font/poppins_semi_bold"-->
+            <!--                        android:text="Select Department"-->
+            <!--                        android:textColor="@color/dusk"-->
+            <!--                        android:textSize="@dimen/_10ssp" />-->
+
+            <!--                    <TextView-->
+            <!--                        android:layout_width="wrap_content"-->
+            <!--                        android:layout_height="wrap_content"-->
+            <!--                        android:layout_toEndOf="@id/tv_department"-->
+            <!--                        android:text="*"-->
+            <!--                        android:textColor="@color/red"-->
+            <!--                        android:textSize="@dimen/_10ssp" />-->
+
+            <!--                    <FrameLayout-->
+            <!--                        android:layout_width="match_parent"-->
+            <!--                        android:layout_height="wrap_content"-->
+            <!--                        android:layout_below="@+id/tv_department"-->
+            <!--                        android:layout_marginTop="@dimen/_3sdp"-->
+            <!--                        android:background="@drawable/imageborder">-->
+
+            <!--                        <Spinner-->
+            <!--                            android:id="@+id/sp_department"-->
+            <!--                            android:layout_width="match_parent"-->
+            <!--                            android:layout_height="wrap_content"-->
+            <!--                            android:layout_marginTop="@dimen/_5sdp" />-->
+
+            <!--                    </FrameLayout>-->
+
+            <!--                </RelativeLayout>-->
+
+            <!--                <RelativeLayout-->
+            <!--                    android:id="@+id/rl_subDepartment"-->
+            <!--                    android:layout_width="wrap_content"-->
+            <!--                    android:layout_height="wrap_content"-->
+            <!--                    android:layout_below="@id/rl_department"-->
+            <!--                    android:layout_marginTop="@dimen/_10sdp">-->
+
+            <!--                    <TextView-->
+            <!--                        android:id="@+id/tv_subDepartment"-->
+            <!--                        android:layout_width="wrap_content"-->
+            <!--                        android:layout_height="wrap_content"-->
+            <!--                        android:layout_marginStart="@dimen/_5sdp"-->
+            <!--                        android:layout_marginTop="@dimen/_2sdp"-->
+            <!--                        android:fontFamily="@font/poppins_semi_bold"-->
+            <!--                        android:text="Select Sub Department"-->
+            <!--                        android:textColor="@color/dusk"-->
+            <!--                        android:textSize="@dimen/_10ssp" />-->
+
+            <!--                    <TextView-->
+            <!--                        android:layout_width="wrap_content"-->
+            <!--                        android:layout_height="wrap_content"-->
+            <!--                        android:layout_toEndOf="@id/tv_subDepartment"-->
+            <!--                        android:text="*"-->
+            <!--                        android:textColor="@color/red"-->
+            <!--                        android:textSize="@dimen/_10ssp" />-->
+
+            <!--                    <FrameLayout-->
+            <!--                        android:layout_width="match_parent"-->
+            <!--                        android:layout_height="wrap_content"-->
+            <!--                        android:layout_below="@+id/tv_subDepartment"-->
+            <!--                        android:layout_marginTop="@dimen/_3sdp"-->
+            <!--                        android:background="@drawable/imageborder">-->
+
+            <!--                        <Spinner-->
+            <!--                            android:id="@+id/sp_subDepartment"-->
+            <!--                            android:layout_width="match_parent"-->
+            <!--                            android:layout_height="wrap_content"-->
+            <!--                            android:layout_marginTop="@dimen/_5sdp" />-->
+
+            <!--                    </FrameLayout>-->
+
+            <!--                </RelativeLayout>-->
+
+            <LinearLayout
+                android:id="@+id/rl_leaveDateTime"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/cb_shortLeave"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tv_leaveDateTime"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/_5sdp"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:fontFamily="@font/poppins_semi_bold"
+                        android:text="Leave Duration"
+                        android:textColor="@color/dusk"
+                        android:textSize="@dimen/_10ssp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_4sdp"
+                        android:fontFamily="@font/poppins_regular"
+                        android:text="*"
+                        android:textColor="@color/red"
+                        android:textSize="@dimen/_10ssp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll_date"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_2sdp"
+                    android:orientation="horizontal"
+                    android:visibility="visible"
+                    android:weightSum="2">
+
+                    <RelativeLayout
+                        android:id="@+id/layout_fromDate"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="3dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/imageborder"
+                        android:padding="@dimen/_5sdp">
+
+                        <ImageView
+                            android:id="@+id/iv_fromCalendar"
+                            android:layout_width="@dimen/_13sdp"
+                            android:layout_height="@dimen/_13sdp"
+                            android:layout_centerVertical="true"
+                            android:layout_marginStart="@dimen/_3sdp"
+                            android:background="@drawable/ic_calender_grey" />
+
+                        <TextView
+                            android:id="@+id/txt_fromDate"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="@dimen/_5sdp"
+                            android:layout_marginTop="@dimen/_2sdp"
+                            android:layout_toEndOf="@+id/iv_fromCalendar"
+                            android:fontFamily="@font/poppins_regular"
+                            android:gravity="start"
+                            android:hint="From Date"
+                            android:textColor="@color/dusk"
+                            android:textColorHint="@color/bg_light_color"
+                            android:textSize="@dimen/_10sdp" />
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/layout_toDate"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/_5sdp"
+                        android:layout_marginTop="@dimen/_3sdp"
+                        android:layout_weight="1"
+                        android:background="@drawable/imageborder"
+                        android:padding="@dimen/_5sdp">
+
+                        <ImageView
+                            android:id="@+id/iv_toCalendar"
+                            android:layout_width="@dimen/_13sdp"
+                            android:layout_height="@dimen/_13sdp"
+                            android:layout_centerVertical="true"
+                            android:layout_marginStart="@dimen/_3sdp"
+                            android:background="@drawable/ic_calender_grey" />
+
+                        <TextView
+                            android:id="@+id/txt_toDate"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="@dimen/_5sdp"
+                            android:layout_marginTop="@dimen/_2sdp"
+                            android:layout_toEndOf="@+id/iv_toCalendar"
+                            android:fontFamily="@font/poppins_regular"
+                            android:gravity="start"
+                            android:hint="To Date"
+                            android:textColor="@color/dusk"
+                            android:textColorHint="@color/bg_light_color"
+                            android:textSize="@dimen/_10sdp" />
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll_time"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_2sdp"
+                    android:orientation="horizontal"
+                    android:visibility="gone"
+                    android:weightSum="3">
+
+                    <RelativeLayout
+                        android:id="@+id/layout_fromSDate"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="3dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/imageborder"
+                        android:padding="@dimen/_5sdp">
+
+                        <ImageView
+                            android:id="@+id/iv_fromSCalendar"
+                            android:layout_width="@dimen/_13sdp"
+                            android:layout_height="@dimen/_13sdp"
+                            android:layout_centerVertical="true"
+                            android:layout_marginStart="@dimen/_3sdp"
+                            android:background="@drawable/ic_calender_grey" />
+
+                        <TextView
+                            android:id="@+id/txt_fromSDate"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="@dimen/_5sdp"
+                            android:layout_marginTop="@dimen/_2sdp"
+                            android:layout_toEndOf="@+id/iv_fromSCalendar"
+                            android:fontFamily="@font/poppins_regular"
+                            android:gravity="start|center"
+                            android:hint="From Date"
+                            android:textColor="@color/dusk"
+                            android:textColorHint="@color/bg_light_color"
+                            android:textSize="@dimen/_9ssp" />
+
+                    </RelativeLayout>
+
+
+                    <RelativeLayout
+                        android:id="@+id/layout_fromTime"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="3dp"
+                        android:layout_weight="1"
+                        android:layout_marginStart="@dimen/_5sdp"
+                        android:background="@drawable/imageborder"
+                        android:padding="@dimen/_5sdp">
+
+                        <ImageView
+                            android:id="@+id/iv_toClock"
+                            android:layout_width="@dimen/_13sdp"
+                            android:layout_height="@dimen/_13sdp"
+                            android:layout_centerVertical="true"
+                            android:layout_marginStart="@dimen/_3sdp"
+                            android:background="@drawable/ic_time_grey" />
+
+                        <TextView
+                            android:id="@+id/txt_fromTime"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="@dimen/_5sdp"
+                            android:layout_marginTop="@dimen/_2sdp"
+                            android:layout_toEndOf="@+id/iv_toClock"
+                            android:fontFamily="@font/poppins_regular"
+                            android:gravity="start|center"
+                            android:hint="From Time"
+                            android:textColor="@color/dusk"
+                            android:textSize="@dimen/_9ssp" />
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/layout_toTime"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/_5sdp"
+                        android:layout_marginTop="@dimen/_3sdp"
+                        android:layout_weight="1"
+                        android:background="@drawable/imageborder"
+                        android:padding="@dimen/_5sdp">
+
+                        <ImageView
+                            android:id="@+id/iv_toTime"
+                            android:layout_width="@dimen/_13sdp"
+                            android:layout_height="@dimen/_13sdp"
+                            android:layout_centerVertical="true"
+                            android:layout_marginStart="@dimen/_3sdp"
+                            android:background="@drawable/ic_time_grey" />
+
+                        <TextView
+                            android:id="@+id/txt_toTime"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="@dimen/_5sdp"
+                            android:layout_marginTop="@dimen/_2sdp"
+                            android:layout_toEndOf="@+id/iv_toTime"
+                            android:fontFamily="@font/poppins_regular"
+                            android:gravity="start|center"
+                            android:hint="To Time"
+                            android:textColor="@color/dusk"
+                            android:textSize="@dimen/_9ssp" />
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:id="@+id/ll_numOfDays"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:background="@drawable/imageborder"
+                    android:visibility="gone">
+
+                    <TextView
+                        android:id="@+id/tv_numOfDays"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins_regular"
+                        android:padding="@dimen/_10sdp"
+                        android:text=""
+                        android:textColor="@color/dusk"
+                        android:textSize="@dimen/_10ssp" />
+
+                </RelativeLayout>
+
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_leaveType"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/rl_leaveDateTime"
+                android:layout_marginTop="@dimen/_10sdp">
+
+                <TextView
+                    android:id="@+id/tv_leaveType"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_5sdp"
+                    android:layout_marginTop="@dimen/_2sdp"
+                    android:fontFamily="@font/poppins_semi_bold"
+                    android:text="Select Leave Type"
+                    android:textColor="@color/dusk"
+                    android:textSize="@dimen/_10ssp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@id/tv_leaveType"
+                    android:text="*"
+                    android:textColor="@color/red"
+                    android:textSize="@dimen/_10ssp" />
+
+                <FrameLayout
+                    android:id="@+id/fl_spinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tv_leaveType"
+                    android:layout_marginTop="@dimen/_3sdp"
+                    android:background="@drawable/imageborder">
+
+                    <Spinner
+                        android:id="@+id/sp_leaveType"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_5sdp" />
+
+                </FrameLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll_leaveBalance"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/fl_spinner"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:background="@drawable/imageborder"
+                    android:orientation="horizontal"
+                    android:visibility="gone"
+                    android:weightSum="3">
+
+                    <TextView
+                        android:id="@+id/tv_totalLeaves"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/poppins_semi_bold"
+                        android:padding="@dimen/_10sdp"
+                        android:text="Allowed:"
+                        android:textColor="@color/hint"
+                        android:textSize="@dimen/_9ssp" />
+
+                    <TextView
+                        android:id="@+id/tv_availedLeaves"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/poppins_semi_bold"
+                        android:padding="@dimen/_10sdp"
+                        android:text="Availed:"
+                        android:textColor="@color/hint"
+                        android:textSize="@dimen/_9ssp" />
+
+                    <TextView
+                        android:id="@+id/tv_remainingLeaves"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/poppins_semi_bold"
+                        android:padding="@dimen/_10sdp"
+                        android:text="Remaining:"
+                        android:textColor="@color/hint"
+                        android:textSize="@dimen/_9ssp" />
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_leaveTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/rl_leaveType"
+                android:layout_marginTop="@dimen/_10sdp">
+
+                <TextView
+                    android:id="@+id/tv_leaveTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_5sdp"
+                    android:layout_marginTop="@dimen/_2sdp"
+                    android:fontFamily="@font/poppins_semi_bold"
+                    android:text="Title"
+                    android:textColor="@color/dusk"
+                    android:textSize="@dimen/_10ssp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@id/tv_leaveTitle"
+                    android:text="*"
+                    android:textColor="@color/red"
+                    android:textSize="@dimen/_10ssp" />
+
+                <EditText
+                    android:id="@+id/et_leaveTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv_leaveTitle"
+                    android:layout_marginTop="@dimen/_3sdp"
+                    android:background="@drawable/imageborder"
+                    android:fontFamily="@font/poppins_regular"
+                    android:gravity="start"
+                    android:maxLines="1"
+                    android:paddingStart="@dimen/_10sdp"
+                    android:paddingTop="@dimen/_6sdp"
+                    android:paddingEnd="@dimen/_10sdp"
+                    android:paddingBottom="@dimen/_6sdp"
+                    android:textSize="@dimen/_10ssp" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_leaveDescription"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/rl_leaveTitle"
+                android:layout_marginTop="@dimen/_10sdp">
+
+                <TextView
+                    android:id="@+id/tv_description"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_5sdp"
+                    android:layout_marginTop="@dimen/_2sdp"
+                    android:fontFamily="@font/poppins_semi_bold"
+                    android:text="Description"
+                    android:textColor="@color/dusk"
+                    android:textSize="@dimen/_10ssp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@id/tv_description"
+                    android:text="*"
+                    android:textColor="@color/red"
+                    android:textSize="@dimen/_10ssp" />
+
+                <EditText
+                    android:id="@+id/et_description"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_80sdp"
+                    android:layout_below="@id/tv_description"
+                    android:layout_marginTop="@dimen/_3sdp"
+                    android:background="@drawable/imageborder"
+                    android:fontFamily="@font/poppins_regular"
+                    android:gravity="start"
+                    android:maxLines="10"
+                    android:padding="@dimen/_10sdp"
+                    android:textSize="@dimen/_10ssp" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_attachment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/rl_leaveDescription"
+                android:layout_marginTop="@dimen/_10sdp">
+
+                <TextView
+                    android:id="@+id/tv_addAttachment"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_5sdp"
+                    android:fontFamily="@font/poppins_semi_bold"
+                    android:text="Add Attachment"
+                    android:textColor="@color/dusk"
+                    android:textSize="@dimen/_10ssp" />
+
+                <RelativeLayout
+                    android:id="@+id/rl_uploadImage"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_90sdp"
+                    android:layout_below="@id/tv_addAttachment"
+                    android:background="@drawable/imageborder">
+
+                    <ImageView
+                        android:id="@+id/iv_addAttach"
+                        android:layout_width="@dimen/_80sdp"
+                        android:layout_height="@dimen/_80sdp"
+                        android:layout_centerInParent="true"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:padding="@dimen/_5sdp"
+                        android:src="@drawable/ic_imageupload" />
+
+                </RelativeLayout>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_lineManager"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/rl_attachment"
+                android:layout_marginTop="@dimen/_10sdp">
+
+                <TextView
+                    android:id="@+id/tv_lineHead"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_5sdp"
+                    android:layout_marginTop="@dimen/_2sdp"
+                    android:fontFamily="@font/poppins_semi_bold"
+                    android:text="Select Line Manager"
+                    android:textColor="@color/dusk"
+                    android:textSize="@dimen/_10ssp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@id/tv_lineHead"
+                    android:text="*"
+                    android:textColor="@color/red"
+                    android:textSize="@dimen/_10ssp" />
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tv_lineHead"
+                    android:layout_marginTop="@dimen/_3sdp"
+                    android:background="@drawable/imageborder">
+
+                    <Spinner
+                        android:id="@+id/sp_lineManager"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:nestedScrollingEnabled="true" />
+
+                </FrameLayout>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_lineManagerRemarks"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/rl_lineManager"
+                android:layout_marginTop="@dimen/_10sdp">
+
+                <TextView
+                    android:id="@+id/tv_lineManagerRemarks"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_5sdp"
+                    android:layout_marginTop="@dimen/_2sdp"
+                    android:fontFamily="@font/poppins_semi_bold"
+                    android:text="Line Manager Remarks"
+                    android:textColor="@color/dusk"
+                    android:textSize="@dimen/_10ssp" />
+
+                <EditText
+                    android:id="@+id/et_lineManagerRemarks"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_80sdp"
+                    android:layout_below="@id/tv_lineManagerRemarks"
+                    android:layout_marginTop="@dimen/_3sdp"
+                    android:background="@drawable/imageborder"
+                    android:fontFamily="@font/poppins_regular"
+                    android:gravity="start"
+                    android:maxLines="10"
+                    android:padding="@dimen/_10sdp"
+                    android:textSize="@dimen/_10ssp" />
+
+            </RelativeLayout>
+
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_submit"
+                android:layout_width="@dimen/_150sdp"
+                android:layout_height="@dimen/_30sdp"
+                android:layout_below="@id/rl_lineManagerRemarks"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:layout_marginBottom="@dimen/_20sdp"
+                android:background="@drawable/atd_button_bg"
+                android:fontFamily="@font/poppins_regular"
+                android:text="Submit"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_10ssp" />
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+    <include layout="@layout/loader_layout" />
+
+</RelativeLayout>

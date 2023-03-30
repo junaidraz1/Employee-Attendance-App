@@ -1,0 +1,323 @@
+{
+  "project_info": {
+    "project_number": "309981723357",
+    "firebase_url": "https://ihealthcure-a50a0.firebaseio.com",
+    "project_id": "ihealthcure-a50a0",
+    "storage_bucket": "ihealthcure-a50a0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:309981723357:android:06656e5bd80ac7bd6c3934",
+        "android_client_info": {
+          "package_name": "com.techovative.empattendanceapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "309981723357-psnj7hqsstv55cgasld4i470h2e7ka66.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAvJjbKxHip8Im-nq_orC6I5ARPv0wPpX8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "309981723357-psnj7hqsstv55cgasld4i470h2e7ka66.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "309981723357-532o2jvmt5la0nmktb0uurh6lqpcojk1.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.techovative.patientportal"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:309981723357:android:0e6078c40f2d164e6c3934",
+        "android_client_info": {
+          "package_name": "com.techovative.iith"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "309981723357-qllvcs41bvgi5qv4lt178pksli6qe35i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.techovative.iith",
+            "certificate_hash": "1df51dd83a2758ae8b0e8f6b7f91f364fe62300a"
+          }
+        },
+        {
+          "client_id": "309981723357-s7rgke90s1f9jr3kb6dbfudaktu4u01u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.techovative.iith",
+            "certificate_hash": "f35f795995f65d9d0a2e394d255c2ec3209ff9d2"
+          }
+        },
+        {
+          "client_id": "309981723357-psnj7hqsstv55cgasld4i470h2e7ka66.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAvJjbKxHip8Im-nq_orC6I5ARPv0wPpX8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "309981723357-psnj7hqsstv55cgasld4i470h2e7ka66.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "309981723357-532o2jvmt5la0nmktb0uurh6lqpcojk1.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.techovative.patientportal"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:309981723357:android:3d4071b473c7d3126c3934",
+        "android_client_info": {
+          "package_name": "com.techovative.iith.doctor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "309981723357-pr0m5o94pqhos7pb8t8p604qiab3fik6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.techovative.iith.doctor",
+            "certificate_hash": "1df51dd83a2758ae8b0e8f6b7f91f364fe62300a"
+          }
+        },
+        {
+          "client_id": "309981723357-q91sun9l6luq90a3ebnoc0u5lucoek5u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.techovative.iith.doctor",
+            "certificate_hash": "f35f795995f65d9d0a2e394d255c2ec3209ff9d2"
+          }
+        },
+        {
+          "client_id": "309981723357-psnj7hqsstv55cgasld4i470h2e7ka66.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAvJjbKxHip8Im-nq_orC6I5ARPv0wPpX8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "309981723357-psnj7hqsstv55cgasld4i470h2e7ka66.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "309981723357-532o2jvmt5la0nmktb0uurh6lqpcojk1.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.techovative.patientportal"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:309981723357:android:082787629e9fd6606c3934",
+        "android_client_info": {
+          "package_name": "com.techovative.patientpharmacy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "309981723357-ofid6qd4pv4fghbqbplrj3v3q3k2li1v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.techovative.patientpharmacy",
+            "certificate_hash": "279bfa04392b4154dd4a5ba5e0fa9c247119a490"
+          }
+        },
+        {
+          "client_id": "309981723357-qsp0rc4uris6abqd3ubjeugdhaqhte61.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.techovative.patientpharmacy",
+            "certificate_hash": "1df51dd83a2758ae8b0e8f6b7f91f364fe62300a"
+          }
+        },
+        {
+          "client_id": "309981723357-psnj7hqsstv55cgasld4i470h2e7ka66.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAvJjbKxHip8Im-nq_orC6I5ARPv0wPpX8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "309981723357-psnj7hqsstv55cgasld4i470h2e7ka66.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "309981723357-532o2jvmt5la0nmktb0uurh6lqpcojk1.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.techovative.patientportal"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:309981723357:android:6111c2e6604832ca6c3934",
+        "android_client_info": {
+          "package_name": "com.techovative.patientportal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "309981723357-4lag3iuth0rii6h16skbg5ln6va45kl9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.techovative.patientportal",
+            "certificate_hash": "279bfa04392b4154dd4a5ba5e0fa9c247119a490"
+          }
+        },
+        {
+          "client_id": "309981723357-8hk58utsgujfha3o7cd7ngntcorr9if6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.techovative.patientportal",
+            "certificate_hash": "1df51dd83a2758ae8b0e8f6b7f91f364fe62300a"
+          }
+        },
+        {
+          "client_id": "309981723357-psnj7hqsstv55cgasld4i470h2e7ka66.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAvJjbKxHip8Im-nq_orC6I5ARPv0wPpX8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "309981723357-psnj7hqsstv55cgasld4i470h2e7ka66.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "309981723357-532o2jvmt5la0nmktb0uurh6lqpcojk1.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.techovative.patientportal"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:309981723357:android:557f822412a6d3786c3934",
+        "android_client_info": {
+          "package_name": "techovative.ihealthcure.doctor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "309981723357-7ljrk6mdjsn77viuedips076vstd9cnd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "techovative.ihealthcure.doctor",
+            "certificate_hash": "31b8adcec8244b3bcb90f34022d9e8781e3088e2"
+          }
+        },
+        {
+          "client_id": "309981723357-nvcc9o00s0f1ed77ul3g6rlels3k4i6f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "techovative.ihealthcure.doctor",
+            "certificate_hash": "1df51dd83a2758ae8b0e8f6b7f91f364fe62300a"
+          }
+        },
+        {
+          "client_id": "309981723357-ql0qph9c446mdaeuqpcfmu60gfhp6t0p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "techovative.ihealthcure.doctor",
+            "certificate_hash": "279bfa04392b4154dd4a5ba5e0fa9c247119a490"
+          }
+        },
+        {
+          "client_id": "309981723357-rl8h6og3g32uvn393agajol9nen1qelr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "techovative.ihealthcure.doctor",
+            "certificate_hash": "93ee62f314448dfc21ec0b4e97bf72060675b4f5"
+          }
+        },
+        {
+          "client_id": "309981723357-psnj7hqsstv55cgasld4i470h2e7ka66.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAvJjbKxHip8Im-nq_orC6I5ARPv0wPpX8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "309981723357-psnj7hqsstv55cgasld4i470h2e7ka66.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "309981723357-532o2jvmt5la0nmktb0uurh6lqpcojk1.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.techovative.patientportal"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
