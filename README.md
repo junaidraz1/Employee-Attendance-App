@@ -1,5 +1,4 @@
-Employee Attendance App 📱💼
-This Employee Attendance App is a powerful solution for tracking and managing employee attendance with ease. It’s packed with features that ensure smooth and efficient attendance management.
+Employee Attendance App 📱💼: This Employee Attendance App is a powerful solution for tracking and managing employee attendance with ease. It’s packed with features that ensure smooth and efficient attendance management.
 
 🌟 Key Features
 📖 Onboarding Screens: Introduces users to the app with a quick walkthrough, showing what it’s all about and how to use it.
